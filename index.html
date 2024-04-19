@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Chip Cookies</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/myclock.css">
+</head>
+<body>
+  <article>
+      <header>
+          <h1>Chocolate Chip Cookies</h1>
+          <img src="./assets/cookie.jpg" alt="Chocolate Chip Cookies" class="recipe-img">
+      </header>
+      <section class="ingredients">
+          <h2>Ingredients</h2>
+          <ul>
+              <li>1 cup softened butter</li>
+              <li>1 cup white sugar</li>
+              <li>2 cups all-purpose flour</li>
+              <!-- More ingredients -->
+          </ul>
+      </section>
+      <section class="instructions">
+          <h2>Instructions</h2>
+          <ol>
+              <li>Preheat oven to 350 degrees F (175 degrees C).</li>
+              <li>Cream together the butter, white sugar,
+                  and brown sugar until smooth.</li>
+              <li>Beat in the eggs one at a time,
+                  then stir in the vanilla.</li>
+              <!-- More steps -->
+          </ol>
+      </section>
+  </article>
+  <!-- clock -->
+                <script src="https://code.highcharts.com/highcharts.js"></script>
+                <script src="https://code.highcharts.com/highcharts-more.js"></script>
+                <script src="https://code.highcharts.com/modules/exporting.js"></script>
+                <script src="https://code.highcharts.com/modules/export-data.js"></script>
+                <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+                
+
+                <figure class="highcharts-figure">
+                    <div id="container"></div>
+                    <p class="highcharts-description">
+                        A chart using a gauge series to create a working clock. The gauge value
+                        is updated every second, and a custom animation easing function is
+                        provided to create the bounce effect.
+                    </p>
+                </figure>
+                <script src="./js/main.js"></script>
+<!-- clock -->
+  <footer>
+      <p>Recipe by Grandma's Cookbook</p>
+  </footer>
+</body>
+</html>
